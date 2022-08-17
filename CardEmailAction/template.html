@@ -1,0 +1,193 @@
+<html>
+   <head>
+      <title>Card Action Email</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <style type="text/css">
+         @media screen yahoo{
+         .dear-text, .internalText, .internalTable{font-size:16px;}
+         .mobileButtonKnow{font-size: 18px;}
+         }
+         body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+         body,
+         table,
+         td,
+         a {
+         -webkit-text-size-adjust: 100%;
+         -ms-text-size-adjust: 100%;
+         }
+         a:hover{text-decoration:none;}
+         table,
+         td {
+         mso-table-lspace: 0pt;
+         mso-table-rspace: 0pt;
+         }
+         img {
+         -ms-interpolation-mode: bicubic;
+         }
+         img {
+         border: 0;
+         height: auto;
+         line-height: 100%;
+         outline: none;
+         text-decoration: none;
+         }
+         table {
+         border-collapse: collapse !important;
+         }
+         .ExternalClass {width:100%;}
+         body {
+         height: 100% !important;
+         width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;
+         }
+         /* iOS BLUE LINKS */
+         a[x-apple-data-detectors] {
+         color: inherit !important;
+         text-decoration: none !important;
+         font-size: inherit !important;
+         font-family: inherit !important;
+         font-weight: inherit !important;
+         line-height: inherit !important;
+         }
+         div[style*="margin: 16px 0;"] {
+         margin: 0 !important;
+         }
+         .imageContainer{display:table;}
+         .imageContainer span{display:table-cell;}
+         @media screen and (max-width : 723px ) {
+         .Heading{padding:4% 0 6%;}
+         .logoTable img{width:125px !important;}
+         p {
+         padding: 0;
+         }
+         .ig-footer-link{
+         width: 91% !important;
+         }
+         .dear-text{
+         padding-top: 30px !important;
+         }
+         body{
+         background-color: #f1f1f1;
+         }
+         .imageSpan{padding-right:12px !important;}
+         .backgroundMobile{background-size:500px; padding:5% 0 200px !important;}
+         .mobileBtnDiv{margin-top:0; }
+         }
+         @media only screen and (max-width:320px) {
+         .fixiOS {
+         width: 320px!important
+         }
+         }
+         @media only screen and (min-width:321px) and (max-width:415px) {
+         .fixiOS {
+         width: 414px!important
+         }
+         }
+      </style>
+   </head>
+   <body style="margin: 0 !important; padding: 0 !important; background-color: #f1f1f1">
+      <div style="font-family:arial, sans-serif;font-size:1px;color:#f6f7fb;line-height:1px;mso-line-height-rule:exactly;display:none;max-width:0px;max-height:0px;opacity:0;overflow:hidden;mso-hide:all;"></div>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f1f1f1">
+         <tbody>
+            <tr>
+               <td align="center" valign="top">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="94%" style="max-width: 628px !important;">
+                     <tr>
+                        <td align="center" style="max-width: 628px !important;">
+                           <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 5px solid #6BCAC0; background-color: #ffffff;">
+                              <tr>
+                                 <td width="600" style="text-align: center; padding-left:5%; padding-right:0;padding-top:20px; padding-bottom:20px;" class="logoTable">
+                                    <a href="https://www.eazy2biz.com">
+                                    <img class="logo" src="https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/logo.png" alt="eazy2biz" width="130">
+                                    </a>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td width="600" style="font-family: 'monospace;', arial;color:#222;">
+
+                                    <hr style="margin:0 auto 0 auto;width:90%;border:none;border-bottom:1px solid #C0D0E6">
+
+                                    <table width="100%" border="0">
+                                       <tbody>
+                                          <tr>
+                                             <td width="600" style="padding: 0 5%; padding-top:28px; padding-bottom:30px; line-height:23px; font-size:16px; text-align:left;" class="padding-msite">
+                                                ${emailDetails.body.replace(/\n/g, '<br/>')}
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </td>
+                              </tr>
+
+                              <tr>
+                                 <td width="600" style="background-color: #6BCAC0;color:#ffffff;font-family: 'Open Sans', arial; text-decoration: none; font-size: 32px;">
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                       <tbody>
+                                          <tr>
+                                             <td width="600" style="
+                                                background:
+                                                url('https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/Bannerbgdiagnal.png');
+                                                background-repeat: no-repeat;
+                                                background-position: 97% center;
+                                                background-size: 5%; color:#ffffff;
+                                                font-family: 'Open Sans', arial;
+                                                text-decoration: none;
+                                                font-size: 12px;
+                                                padding: 20px 11% 20px 3%;
+                                                /*font-weight: bold;*/
+                                                font-style: italic;
+                                                text-align: right;
+                                                ">This email is sent from <span style="font-weight: bold;">${cardDoc.details.name}</span> of workflow <span style="font-weight: bold;">"${workflowDoc.details.name}"</span> in <span style="font-weight: bold;">${companyDoc.details.name}</span>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td width="600" align="center" style="text-align:center;padding-top:30px;background:#f1f1f1; border-top:1px solid #e0e0e0">
+                                    <div style="padding-bottom:20px;">
+                                       <a href="https://www.apple.com/in/app-store"><img src="https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/appstore.png" width="121" height="34"></a> &nbsp; &nbsp;
+                                       <a href="https://play.google.com"><img src="https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/playstore.png" width="121" height="34"></a>
+                                    </div>
+                                    <div style="padding-bottom:20px;font-size:11px;color:#666;font-family: 'OpenSans-SemiBold', arial, sans-serif, OpenSans-SemiBold">Copyright 2022 eazy2biz All rights reserved.</div>
+                                    <div style="padding-bottom:5px;padding-top: 10px; margin-bottom: 5px">
+                                       <a href="https://www.facebook.com" target="_blank" title="Facebook" style="display: inline-block; margin:5px">
+                                       <img src="https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/facebook.png" title="Facebook" width="20" height="20">
+                                       </a>
+                                       <a href="https://www.instagram.com" target="_blank" title="Instagram" style="display: inline-block; margin:5px">
+                                       <img src="https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/Instagram.png" title="Instagram" width="20" height="20">
+                                       </a>
+                                       <a href="https://www.twitter.com" target="_blank" title="Twitter" style="display: inline-block; margin:5px">
+                                       <img src="https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/twitter.png" title="Twitter" width="20" height="20">
+                                       </a>
+                                       <a href="https://www.youtube.com" target="_blank" title="Youtube" style="display: inline-block; margin:5px">
+                                       <img src="https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/youtube.png" title="Youtube" width="20" height="20">
+                                       </a>
+                                       <a href="https://www.linkedin.com" title="Linkedin" style="display: inline-block; margin:5px">
+                                       <img src="https://public-resources-all.s3.ap-south-1.amazonaws.com/CardEmailActionImages/linkedin.png" target="_blank" title="Linkedin" width="20" height="20">
+                                       </a>
+                                    </div>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="max-width: 400px;">
+                                       <tbody>
+                                          <tr>
+                                             <td align="center" style="font-size: 11px; padding-bottom: 15px; line-height: 18px; font-family: Arial, sans-serif; color:#999;">
+                                                <a href="https://www.eazy2biz.com" target="_blank" style="color: #999; text-decoration: underline;display: inline-block;">Unsubscribe </a>
+                                                <span> | </span> <a href="https://www.eazy2biz.com" style="color: #999; text-decoration: underline;">Help</a>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>
